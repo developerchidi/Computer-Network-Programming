@@ -16,11 +16,11 @@
 ## 📂 Danh sách bài tập
 
 ### Week 01
-- [Bài 1: Tính tổng hai số nguyên](./week_01/Ex_01)
-- [Bài 2: Kiểm tra số nguyên tố](./week_01/ex_02)
-- [Bài 3: Giải phương trình bậc hai](./week_01/ex_03)
-- [Bài 4: Tính tổng dãy số](./week_01/ex_04)
-- [Bài 5: Máy chủ giải toán biểu thức hậu tố (postfix)](./week_01/ex_05)
+- [Bài 1: Tính tổng hai số nguyên](./tree/main/week_01/ex_01)
+- [Bài 2: Kiểm tra số nguyên tố](./tree/main/week_01/ex_02)
+- [Bài 3: Giải phương trình bậc hai](./tree/main/week_01/ex_03)
+- [Bài 4: Tính tổng dãy số](./tree/main/week_01/ex_04)
+- [Bài 5: Máy chủ giải toán biểu thức hậu tố (postfix)](./tree/main/week_01/ex_05)
 
 <!-- Có thể bổ sung các tuần tiếp theo ở đây -->
 
