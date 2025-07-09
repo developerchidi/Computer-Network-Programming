@@ -12,7 +12,7 @@
 
 ---
 
-> **Kho bài tập và ghi chú môn Lập trình Mạng & Truyền thông (LT_MTT) bằng Java.**
+**Kho bài tập và ghi chú môn Lập trình Mạng & Truyền thông (LT_MTT) bằng Java.**
 
 </div>
 
