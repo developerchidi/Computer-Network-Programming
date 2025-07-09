@@ -13,6 +13,19 @@
 
 ---
 
+## 📂 Danh sách bài tập
+
+### Week 01
+- [Bài 1: Tính tổng hai số nguyên](./week_01/Ex_01/README.md)
+- [Bài 2: Kiểm tra số nguyên tố](./week_01/ex_02/README.md)
+- [Bài 3: Giải phương trình bậc hai](./week_01/ex_03/README.md)
+- [Bài 4: Tính tổng dãy số](./week_01/ex_04/README.md)
+- [Bài 5: Máy chủ giải toán biểu thức hậu tố (postfix)](./week_01/ex_05/README.md)
+
+<!-- Có thể bổ sung các tuần tiếp theo ở đây -->
+
+---
+
 ## 🎯 Mục tiêu repo
 - Tổng hợp các bài tập, ví dụ thực hành về lập trình mạng bằng Java
 - Ghi chú, chia sẻ kiến thức và kinh nghiệm học tập
