@@ -12,14 +12,20 @@ public class Server {
                      PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true)) {
 
                     String input = in.readLine();
-                    int n = Integer.parseInt(input);
+                    String[] parts = input.split(",");
+                    int n = Integer.parseInt(parts[0].trim());
+                    int base = Integer.parseInt(parts[1].trim());
                     String result;
-                    if (isPalindrome(n)) {
-                        result = n + " la so doi xung";
+                    if (base == 2) {
+                        result = n + " trong he 2 la: " + Integer.toBinaryString(n);
+                    } else if (base == 8) {
+                        result = n + " trong he 8 la: " + Integer.toOctalString(n);
+                    } else if (base == 16) {
+                        result = n + " trong he 16 la: " + Integer.toHexString(n).toUpperCase();
                     } else {
-                        result = n + " khong phai la so doi xung";
+                        result = "He dem khong hop le";
                     }
-                    System.out.println("Nhan: " + n + "\nTra ve: " + result);
+                    System.out.println("Nhan: " + n + ", he " + base + "\nTra ve: " + result);
                     out.println(result);
                 } catch (Exception e) {
                     System.out.println("Loi xu ly client: " + e.getMessage());
@@ -28,15 +34,5 @@ public class Server {
         } catch (IOException e) {
             System.out.println("Khong the khoi dong server: " + e.getMessage());
         }
-    }
-
-    private static boolean isPalindrome(int n) {
-        if (n < 0) return false;
-        int original = n, reversed = 0;
-        while (n > 0) {
-            reversed = reversed * 10 + n % 10;
-            n /= 10;
-        }
-        return original == reversed;
     }
 } 
