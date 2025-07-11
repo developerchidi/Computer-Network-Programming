@@ -6,7 +6,7 @@ public class Server {
     public static void main(String[] args) {
         int port = 12345;
         try (ServerSocket serverSocket = new ServerSocket(port)) {
-            System.out.println("Server is running on port " + port);
+            System.out.println("Server dang chay tren cong " + port);
             while (true) {
                 try (Socket clientSocket = serverSocket.accept();
                      BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
@@ -16,7 +16,7 @@ public class Server {
                     int n = Integer.parseInt(input.trim());
                     BigInteger result = parallelFactorial(n);
                     String response = n + "! = " + result;
-                    System.out.println("Nhan: " + n + " | Tra ve: " + response);
+                    System.out.println("Nhan: " + n + "\nTra ve: " + response);
                     out.println(response);
                 } catch (Exception e) {
                     System.out.println("Loi xu ly client: " + e.getMessage());
