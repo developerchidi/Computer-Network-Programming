@@ -26,6 +26,11 @@
 - [Bài 8: Tính giai thừa song song](https://github.com/developerchidi/Computer-Network-Programming/tree/main/week_01/ex_08) — Client chọn chế độ (song song/tuần tự), server tính n!.
 - [Bài 9: Tính trung bình danh sách số](https://github.com/developerchidi/Computer-Network-Programming/tree/main/week_01/ex_09) — Server trả trung bình, lớn nhất, nhỏ nhất.
 - [Bài 10: Kiểm tra số Fibonacci](https://github.com/developerchidi/Computer-Network-Programming/tree/main/week_01/ex_10) — Kiểm tra số thuộc dãy Fibonacci.
+- [Bài 11: Định thức ma trận song song](https://github.com/developerchidi/Computer-Network-Programming/tree/main/week_01/ex_11) — Client gửi ma trận, server tính định thức song song.
+- [Bài 12: Xác thực số học ba bước](https://github.com/developerchidi/Computer-Network-Programming/tree/main/week_01/ex_12) — Three-way Arithmetic Handshake, Zero Knowledge Proof nhẹ.
+- [Bài 13: Truy vấn số nguyên tố streaming](https://github.com/developerchidi/Computer-Network-Programming/tree/main/week_01/ex_13) — Server gửi số nguyên tố liên tục, client có thể dừng bất kỳ lúc nào.
+- [Bài 14: Mã hóa Hill Cipher trên mạng](https://github.com/developerchidi/Computer-Network-Programming/tree/main/week_01/ex_14) — Client gửi văn bản và khóa, server mã hóa/giải mã Hill Cipher.
+- [Bài 15: Giải hệ phương trình tuyến tính](https://github.com/developerchidi/Computer-Network-Programming/tree/main/week_01/ex_15) — Client gửi hệ phương trình, server giải bằng Gauss-Jordan, trả nghiệm.
 
 <!-- Có thể bổ sung các tuần tiếp theo ở đây -->
 
