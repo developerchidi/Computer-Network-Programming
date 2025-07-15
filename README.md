@@ -43,30 +43,26 @@
 - [Bài 8: Tính giai thừa song song](week_02/ex_08) — Client gửi n, server tính n! (UDP).
 - [Bài 9: Tính trung bình danh sách số](week_02/ex_09) — Server trả trung bình, lớn nhất, nhỏ nhất (UDP).
 - [Bài 10: Kiểm tra số Fibonacci](week_02/ex_10) — Kiểm tra số thuộc dãy Fibonacci (UDP).
-- [Bài 11: Định thức ma trận song song](week_02/ex_11) — Client gửi ma trận, server tính định thức song song (UDP).
-- [Bài 12: Xác thực số học ba bước](week_02/ex_12) — Three-way Arithmetic Handshake, Zero Knowledge Proof nhẹ (UDP).
-- [Bài 13: Truy vấn số nguyên tố streaming](week_02/ex_13) — Server gửi số nguyên tố liên tục, client có thể dừng bất kỳ lúc nào (UDP).
-- [Bài 14: Mã hóa Hill Cipher trên mạng](week_02/ex_14) — Client gửi văn bản và khóa, server mã hóa/giải mã Hill Cipher (UDP).
-- [Bài 15: Giải hệ phương trình tuyến tính](week_02/ex_15) — Client gửi hệ phương trình, server giải bằng Gauss-Jordan, trả nghiệm (UDP).
 
 <!-- Có thể bổ sung các tuần tiếp theo ở đây -->
 
 ---
 
 ## 🎯 Mục tiêu repo
-- Tổng hợp các bài tập, ví dụ thực hành về lập trình mạng bằng Java
-- Ghi chú, chia sẻ kiến thức và kinh nghiệm học tập
-- Hỗ trợ sinh viên, người tự học ôn tập và thực hành
+- Tổng hợp đầy đủ các bài tập thực hành lập trình mạng bằng Java, bao gồm cả TCP và UDP.
+- Cung cấp ví dụ mẫu, hướng dẫn chi tiết cho từng dạng bài tập socket phổ biến.
+- Ghi chú, chia sẻ kiến thức, kinh nghiệm học tập và giải thích chi tiết từng bài.
+- Hỗ trợ sinh viên, người tự học ôn tập, thực hành, và chuẩn bị cho kiểm tra/thực tế.
+- Khuyến khích đóng góp, mở rộng repo cho các chủ đề nâng cao (bảo mật, đa luồng, streaming...).
+
+---
 
 ## 🛠️ Công nghệ sử dụng
-- Java 8+
-- Java Socket API
-- TCP/IP Networking
-- Git & GitHub
-
-## 📬 Liên hệ & đóng góp
-- Tác giả: [developerchidi](https://github.com/developerchidi)
-- Đóng góp, thắc mắc hoặc báo lỗi: Vui lòng tạo issue hoặc pull request trên GitHub
+- **Java 8+**: Ngôn ngữ lập trình chính, dễ học, phổ biến cho lập trình mạng.
+- **Java Socket API**: Lập trình socket TCP và UDP, client-server, xử lý dữ liệu qua mạng.
+- **TCP/IP & UDP Networking**: Thực hành cả hai giao thức mạng cơ bản nhất.
+- **Git & GitHub**: Quản lý mã nguồn, cộng tác, chia sẻ và đóng góp bài tập.
+- **VS Code / IntelliJ / Eclipse**: Các IDE phổ biến hỗ trợ Java và debug mạng.
 
 ---
 
